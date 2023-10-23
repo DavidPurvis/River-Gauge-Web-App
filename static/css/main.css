@@ -1,0 +1,45 @@
+body, header{
+    margin: 0;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: roboto, sans-serif;
+    font-size: 3ch;
+    font-weight: bolder;
+}
+
+table{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+tr{
+    background-color: #0C598Fff;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: white;
+    color: #0C598Fff;
+
+}
+
+th, td{
+    padding: 2em;
+    text-align: center;
+    border: 1px solid;
+}
+
+th{
+    background-color: #D9A13Bff;
+}
+
+td{
+    width: 25%;
+}

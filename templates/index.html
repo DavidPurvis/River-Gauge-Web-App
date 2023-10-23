@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>River Flows</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <table>
+        <tr>
+            <th>Rapid</th>
+            <th>Flow (cfs)</th>
+            <th>Temperature (°F)</th>
+        </tr>
+        <tr>
+        {% for river in rivers %}
+        <tr>
+            <td>{{ river[0] }}</td>
+            <td>{{ river[2] }}</td>
+            <td>{{ river[3] }}</td>
+            <td>{{ Updated at river[4] }}</td>
+        </tr>
+        {% endfor %}
+        </tr>
+    </table>
+</div>
+{% endblock %}
