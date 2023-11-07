@@ -1,7 +1,4 @@
 import dataretrieval.nwis as nwis
-from datetime import datetime
-from dateutil import tz
-from tabulate import tabulate
 import pandas as pd
 import configparser
 import string
